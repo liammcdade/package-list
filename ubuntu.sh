@@ -1,5 +1,6 @@
 sudo apt update -y
 sudo apt upgrade -y
+sudo apt install snap -y
 sudo snap install --classic code -y
 sudo snap install vlc -y
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb 
