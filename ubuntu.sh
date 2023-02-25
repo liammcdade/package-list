@@ -12,4 +12,4 @@ sudo apt install ./google-chrome-stable_current_amd64.deb -y
 sudo apt-get remove --purge libreoffice* -y
 sudo apt-get clean -y
 sudo apt-get autoremove -y
-sudo apt install kde-full -y
+sudo apt install kde-plasma-desktop
