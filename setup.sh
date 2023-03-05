@@ -21,9 +21,6 @@ flatpak install flathub com.discordapp.Discord -y
 flatpak uninstall --delete-data -y
 flatpak uninstall --unused -y
 wget -c "https://az764295.vo.msecnd.net/stable/8fa188b2b301d36553cbc9ce1b0a146ccb93351f/code_1.73.0-1667318785_amd64.deb"
-git clone https://github.com/liammcdade/package-list.git
-
-
 sudo dpkg -i bleachbit_4.4.2-0_all_ubuntu2004.deb bottom_0.6.8_amd64.deb GitHubDesktop-linux-3.1.1-linux1.deb google-chrome-stable_current_amd64.deb code_1.73.0-1667318785_amd64.deb
 gitkraken-amd64.deb
 sudo apt update
@@ -34,8 +31,6 @@ sudo apt install -f
 sudo apt autoremove -y
 sudo apt autoclean
 sudo apt clean
-
-#!/bin/bash
 sudo apt update
 sudo apt install --fix-missing -y
 sudo apt upgrade --allow-downgrades -y
