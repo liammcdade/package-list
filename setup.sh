@@ -44,4 +44,5 @@ sudo apt autoremove -y
 sudo apt autoclean
 sudo apt clean
 
+https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.2.2.tar.xz
 # End of Script
